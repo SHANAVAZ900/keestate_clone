@@ -1,0 +1,63 @@
+.banner{
+    background: url("https://i.pinimg.com/564x/77/db/a0/77dba083ef2bd2c69b91c6b0801dc7c2.jpg");
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.banner__info{
+    background-color: black;
+    color:whitesmoke;
+    padding-top: 15vh;
+    padding-left: 60px;
+    padding-right: 40px;
+    padding-bottom: 40px;   
+}
+
+.banner__info > button{
+    background-color: rgb(57, 120, 145);
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color:skyblue;
+}
+
+.banner__info > h4 {
+    margin-top: 10px;
+}
+
+
+.banner_middle{
+    display:flex;
+    flex:1;
+    align-items:center;
+    max-width: fit-content;
+}
+
+.banner__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    margin-right: 180px;
+
+}
+
+.banner__right > img{
+    padding-left: 400px;
+   
+    height: 400px;
+    width: 600px;
+}
+
+

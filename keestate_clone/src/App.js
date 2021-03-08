@@ -3,21 +3,32 @@ import './App.css';
 import Header from './Header';
 import Home from "./Home"
 import Footer from "./Footer"
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import About from "./About"
+
+
+
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      {/* Home */}
-      <Home />
-      {/* Header */}
+      <Router>
+        <Header />
 
-      {/* Banner */}
+        <Switch>
+          {/* About */}
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        
 
-      {/* Cards */}
-
-      {/* Footer */}
-      <Footer />
+        <Footer />
+      </Router>
+      
     </div>
   );
 }

@@ -9,7 +9,7 @@
 
 .about__info > h1 {
      margin-bottom: 30px;
-     background-color: rgb(67, 236, 217);
+     background-color: rgb(136, 166, 223);
      width: fit-content;
      margin: 10px;
      border: 0px solid black;
@@ -58,6 +58,8 @@
 }
 
 .about__team{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
     background-color: rgb(165, 238, 229);
     width: fit-content;

@@ -1,17 +1,59 @@
-.contact-form {
-    padding-top: 100px;
-  }
-  
-  input, textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
-  }
-  
-  .contact-submit {
-    background-color: #dee7ec;
-    color: #889eab;
-  }
+.form{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    background-color: rgb(236, 240, 241);
+}
+
+.form__name,.form__collegename,.form__phone,.form__email{
+  margin-top: auto;
+  justify-content: space-between;
+}
+
+.form__name,.form__collegename,.form__phone,.form__email > .MuiInput-Icon{
+  padding: 10px;
+}
+
+
+.form__name > .MuiInput-root{
+  width: 1000px;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(233, 95, 32);
+}
+
+.form__collegename> .MuiInput-root{
+  width: 1000px;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(233, 95, 32);
+}
+.form__phone > .MuiInput-root{
+  width: 1000px;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(233, 95, 32);
+}
+
+.form__email > .MuiInput-root{
+  width: 1000px;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(233, 95, 32);
+}
+
+.form__button > button{
+  background-color: rgb(57, 120, 145);
+  color: white;
+  text-transform: inherit;
+  margin-bottom: 40px;
+  font-weight: 600;
+
+}
+
+.form__button > button:hover{
+  background-color: white;
+  color:skyblue;
+}

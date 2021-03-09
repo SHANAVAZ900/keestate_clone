@@ -12,10 +12,11 @@
     transform: scale(1.07);
 }
 .card > img {
-    object-fit: fill;
+    object-fit:fill;
     min-width: 300px;
     min-height: 200px;
     width: 50%;
+    margin-left: 9vw;
 }
 
 .card__info{
@@ -24,6 +25,7 @@
     padding: 20px;
     padding-top: 20px;
     border:1;
+    display:grid;
 
 }
 
@@ -31,7 +33,6 @@
     background-color: rgb(57, 120, 145);
     color: white;
     text-transform: inherit;
-    margin-bottom: 40px;
     font-weight: 600;
 
 }
